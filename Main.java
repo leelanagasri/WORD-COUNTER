@@ -4,13 +4,13 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.awt.*;
 
-public class second implements ActionListener {
+public class Main implements ActionListener {
 	JFrame frame;
 	JButton button;
 	JScrollPane spane;
 	JTextField text;
 	JTextArea area;
-	public second() {
+	public Main() {
 		frame = new JFrame();
 		button = new JButton("Count");
 		text = new JTextField();
@@ -65,6 +65,6 @@ public class second implements ActionListener {
 	}
 	
 	public static void main(String[] args) {
-		new second();
+		new Main();
 	}
 }
